@@ -4,6 +4,10 @@
 
 
 * 모델과 코드는 SKT의 [KoBART](https://github.com/SKT-AI/KoBART)를 활용하였습니다.
+  * 공식 레포와 같이 kobart를 설치하였습니다.
+```
+!pip install git+https://github.com/SKT-AI/KoBART#egg=kobart
+```
 
 * 다음은 표준어를 제주어로 번역한 예시입니다.
 
