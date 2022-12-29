@@ -209,7 +209,7 @@ if __name__ == '__main__':
     model = DialectConvertor()
     
     checkpoint_callback = pl.callbacks.ModelCheckpoint(monitor='val_loss',
-                                                       dirpath='{}_baseline'.format(args.region),
+                                                       dirpath='model_results/d2s/{}'.format(args.region),
                                                        filename='model_chp/{epoch:02d}-{val_loss:.3f}',
                                                        verbose=True,
                                                        save_last=True,
@@ -223,5 +223,5 @@ if __name__ == '__main__':
     trainer.fit(model, data_module)
     
     
-    model.model.save_pretrained('{}_baseline/model'.format(args.region))
+    model.model.save_pretrained('model_results/d2s/{}/model'.format(args.region))
     
