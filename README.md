@@ -63,3 +63,6 @@ python3 trainer_s2d.py --region 'jeju'
 
 * inference_example.ipynb 를 참조해주세요 :)
   * 생성과 스코어링 예시를 담고 있습니다.
+  
+  
+<img width="60%" alt="스크린샷 2022-12-29 오후 10 14 58" src="https://user-images.githubusercontent.com/55074165/209956681-a5bfbc25-abea-4491-bde5-dad04f2e3ea0.png">
